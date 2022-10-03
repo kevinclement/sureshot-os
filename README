@@ -12,7 +12,7 @@ make all
 make BR2_EXTERNAL=ext menuconfig
 
 # to update saved config
-make savedefconfig BR2_DEFCONFIG=ext/config/sureshot_defconfig
+make savedefconfig BR2_DEFCONFIG=ext/configs/sureshot_defconfig
 
 
 
