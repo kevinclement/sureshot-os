@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_PYSERIAL_ASYNCIO_V5
+	bool "python-pyserial-asyncio-v5"
+	select BR2_PACKAGE_PYTHON_PYSERIAL # runtime
+	help
+	  Python Serial Port Extension - Asynchronous I/O support.
+
+	  https://github.com/pyserial/pyserial-asyncio

@@ -1,0 +1,13 @@
+config BR2_PACKAGE_MPF
+	bool "mpf"
+	select BR2_PACKAGE_PYTHON_PACKAGING # runtime
+	select BR2_PACKAGE_PYTHON_PSUTIL_V573 # runtime
+	select BR2_PACKAGE_PYTHON_PYPARSING # runtime
+	select BR2_PACKAGE_PYTHON_PYSERIAL # runtime
+	select BR2_PACKAGE_PYTHON_PYSERIAL_ASYNCIO_V5 # runtime
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS # runtime, pkg_resources
+	select BR2_PACKAGE_PYTHON_SORTEDCONTAINERS_V23 # runtime
+	help
+	  Mission Pinball Framework.
+
+	  https://missionpinball.org

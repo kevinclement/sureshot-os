@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/mpf/json
+md5  686d9cca4b3205ef8e8a63729093e112  mpf-0.56.0.dev33.tar.gz
+sha256  674f7f8f03ac2d4f604eeb4264de40a8c04a2e030cc5de7acc9313b70ec10ab6  mpf-0.56.0.dev33.tar.gz
+# Locally computed sha256 checksums
+sha256  74c7f04962db05d4593c86a11f042832afddc626713b15512e24d9e8613fe70a  LICENSE.md
