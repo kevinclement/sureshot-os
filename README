@@ -1,5 +1,7 @@
 TODO: Document what changed, how this works
 
+Base Buildroot Version : 2022.08
+
 # apply config
 make BR2_EXTERNAL=ext sureshot_defconfig
 

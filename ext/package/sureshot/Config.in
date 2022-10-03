@@ -1,0 +1,6 @@
+config BR2_PACKAGE_SURESHOT
+	bool "sureshot"
+    select BR2_PACKAGE_MPF # runtime
+
+	help
+	  Source code for SureShot Pinball
