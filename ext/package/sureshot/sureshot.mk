@@ -5,7 +5,7 @@
 ################################################################################
 
 # Pull code from github release
-SURESHOT_VERSION = 0.5
+SURESHOT_VERSION = 0.6
 SURESHOT_SITE = $(call github,kevinclement,sureshot,v$(SURESHOT_VERSION))
 
 define SURESHOT_INSTALL_TARGET_CMDS
