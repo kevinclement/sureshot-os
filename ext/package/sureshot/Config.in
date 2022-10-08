@@ -3,4 +3,4 @@ config BR2_PACKAGE_SURESHOT
     select BR2_PACKAGE_MPF # runtime
 
 	help
-	  Source code for SureShot Pinball
+	  Source code for Sure Shot Pinball

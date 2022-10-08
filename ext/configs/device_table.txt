@@ -1,0 +1,2 @@
+/etc/init.d/S30sureshot f 755 root root - - - - -
+/etc/dropbear/authorized_keys f 600 root root - - - - -

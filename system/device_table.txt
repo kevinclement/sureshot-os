@@ -19,4 +19,3 @@
 /etc/network/if-post-down.d		d	755	0	0	-	-	-	-	-
 # uncomment this to allow starting x as non-root
 #/usr/X11R6/bin/Xfbdev		     	f	4755	0	0	-	-	-	-	-
-/etc/dropbear/authorized_keys f 600 root root - - - - -
