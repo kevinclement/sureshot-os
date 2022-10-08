@@ -1,0 +1,4 @@
+{
+    "git.closeDiffOnOperation": true,
+    "git.postCommitCommand": "push"
+}
