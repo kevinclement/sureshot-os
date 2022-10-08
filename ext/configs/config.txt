@@ -9,12 +9,16 @@ fixup_file=fixup4.dat
 
 kernel=zImage
 
-# fixes rpi (3B, 3B+, 3A+, 4B and Zero W) ttyAMA0 serial console
-dtoverlay=miniuart-bt
-
 disable_overscan=1
 boot_delay=0
 dtoverlay=disable-bt
 gpu_mem=16
 disable_splash=1
 arm_boost=1
+otg_mode=1
+uart_2ndstage=1
+disable_poe_fan=1
+
+# show stuff as early as possible
+earlycon=uart8250,mmio32,0xfe215040
+earlycon=pl011,mmio32,0xfe201000
