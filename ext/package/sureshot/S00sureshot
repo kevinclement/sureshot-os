@@ -8,6 +8,8 @@ DAEMON_ARGS=" -tbP"
 LOG=/var/log/$NAME.log
 common_opts="-q -p $PIDFILE"
 
+# test change with new REPO
+
 # we're running in a RO filesystem, so mount the log file as RW
 # so MPF can run
 mount -t tmpfs -o size=10M tmpfs /code/sureshot/logs
